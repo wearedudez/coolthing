@@ -1,17 +1,15 @@
 --coolthing.cf loader hehe
 
 --games:
---https://www.roblox.com/games/8876384197/steal-time-from-others-flex-your-sword
 --https://www.roblox.com/games/6679274937/Vans-World-S2
 
 
 
 --localos
-local FlexYourTimeAndSword = 8876384197
 local VansEventAllPidgeons = 6679274937
 
-if game.PlaceId == FlexYourTimeAndSword then
-loadstring(game:HttpGet("https://coolthing-cf.neocities.org/flex-your-swords-script.txt"))()
+if game.PlaceId == blahblahblah then
+print("rare game id")
 elseif
 game.PlaceId == VansEventAllPidgeons then
 loadstring(game:HttpGet("https://coolthing-cf.neocities.org/vans-event-find-all-pidgeons-script.txt"))()
